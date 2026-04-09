@@ -34,6 +34,9 @@
 セキュリティの観点から、本リポジトリのコードにはAPIキーを含めていません。手元で動作確認を行う場合は、以下の手順でご自身のAPIキーを設定してください。
 
 1. 本リポジトリをクローン、またはZIPでダウンロードします。
+   ```bash
+   git clone [https://github.com/あなたのユーザー名/リポジトリ名.git](https://github.com/あなたのユーザー名/リポジトリ名.git)
+
 2. 以下のサービスから各種APIキーを取得します。
 
    * [Google Cloud Console](https://console.cloud.google.com/) (Google Maps API Key)
@@ -50,5 +53,3 @@
 ## 📄 ライセンス
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-   ```bash
-   git clone [https://github.com/あなたのユーザー名/リポジトリ名.git](https://github.com/あなたのユーザー名/リポジトリ名.git)
