@@ -48,7 +48,7 @@
    * **7行目付近:** `<script src="...&key=YOUR_GOOGLE_MAPS_API_KEY"></script>`
    * **176行目付近 (`API_CONFIG`):** `CALIL_KEY` および `RAKUTEN_ID`
 
-4. 修正を保存し、`index.html` をブラウザで開くとアプリが起動します。
+4. 修正を保存し、`libmap.html` をブラウザで開くとアプリが起動します。
 
 ## 📄 ライセンス
 
