@@ -34,5 +34,21 @@
 セキュリティの観点から、本リポジトリのコードにはAPIキーを含めていません。手元で動作確認を行う場合は、以下の手順でご自身のAPIキーを設定してください。
 
 1. 本リポジトリをクローン、またはZIPでダウンロードします。
+2. 以下のサービスから各種APIキーを取得します。
+
+   * [Google Cloud Console](https://console.cloud.google.com/) (Google Maps API Key)
+   * [カーリル デベロッパー登録](https://calil.jp/api/dashboard/) (App Key)
+   * [楽天ウェブサービス](https://webservice.rakuten.co.jp/) (Application ID)
+
+3. `index.html` をテキストエディタで開き、以下の箇所を取得したキーに書き換えます。
+
+   * **7行目付近:** `<script src="...&key=YOUR_GOOGLE_MAPS_API_KEY"></script>`
+   * **176行目付近 (`API_CONFIG`):** `CALIL_KEY` および `RAKUTEN_ID`
+
+4. 修正を保存し、`index.html` をブラウザで開くとアプリが起動します。
+
+## 📄 ライセンス
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
    ```bash
    git clone [https://github.com/あなたのユーザー名/リポジトリ名.git](https://github.com/あなたのユーザー名/リポジトリ名.git)
